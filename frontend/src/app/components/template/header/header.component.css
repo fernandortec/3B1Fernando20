@@ -1,0 +1,30 @@
+.header {
+  display: flex;
+  align-items: center;
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(227, 29, 54, 1) 35%,
+    rgba(0, 0, 0, 1) 100%
+  );
+  color: #fff;
+}
+
+.header a {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+}
+
+.header .logo {
+  max-height: 30px;
+}
+
+.header .title-group {
+  padding-left: 20px;
+}
+
+.header .title-group i {
+  padding-right: 6px;
+}

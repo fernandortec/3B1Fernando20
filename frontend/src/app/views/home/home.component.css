@@ -1,0 +1,26 @@
+.home .title {
+  font-size: 3rem;
+  font-weight: 300;
+  line-height: 1.2;
+}
+
+.home .subtitle {
+  font-size: 1.1rem;
+}
+
+.home img {
+  width: 100px;
+  height: 64px;
+}
+
+.row {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+
+  margin: 16px;
+}
+
+.row .home .title {
+  font-size: 2rem;
+}
